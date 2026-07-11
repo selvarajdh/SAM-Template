@@ -1,0 +1,28 @@
+# AWS SAM build artifacts
+.aws-sam/
+samconfig.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+dist/
+
+# Environment
+.env
+.env.*
+
+# Word documents and temp files
+*.docx
+*.doc
+AutoRecovery*
+
+# OS
+.DS_Store
+Thumbs.db
